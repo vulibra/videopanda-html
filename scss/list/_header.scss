@@ -1,0 +1,58 @@
+// css <header>
+
+header {
+	background-color: $black;
+	min-height: 70px;
+	
+	//logo
+	.logo {
+		margin: 4px 0;
+	}
+
+	//navbar
+	.navbar-default {
+		background: transparent;
+		border: none;
+		margin-bottom: 0;
+		
+		//main menu
+		.navbar-nav {
+			&>li{
+				padding: 0 20px;
+				&>a {
+					@include font('Roboto', 15px,700);
+					text-transform: uppercase;
+					padding: 25px 0;
+					position: relative;
+					@include transition-ease(0.2s);
+					&:after {
+						content: '';
+						display: block;
+						margin: auto;
+						position: relative;
+						top: 25px;
+						width: 0;
+						height: 2px;
+						background-color: $orange;
+						@include transition-ease(0.2s);
+					}
+					&:hover:after, &:focus:after {
+						width: 100%;
+					}
+					&:hover, &:focus {
+						color: $white;
+					}
+				}
+			}
+			&>.active>a,
+			&>.active>a:focus,
+			&>.active>a:hover {
+				color: $white;
+				background-color: transparent;
+			}
+			&>.active>a:after {
+				width: 100%;
+			}
+		}
+	}
+}

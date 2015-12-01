@@ -1,0 +1,790 @@
+/*res max 767*/
+@media (max-width: 767px) {
+	.column {
+		display: none;
+	}
+	.logo {
+		margin-top: 7px;
+	}
+	.logo img {
+		width: 90%;	
+	}
+	.navbar-toggle {
+		margin-right: 0;
+		margin-bottom: 21px;
+		margin-top: 20px;
+	}
+	.navbar-default .navbar-toggle {
+		border: none;
+	}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+		border-color: none;
+		border: none;
+	}
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+		background-color: transparent !important;
+	}
+	.navbar-default .navbar-toggle:focus .icon-bar, .navbar-default .navbar-toggle:hover .icon-bar {
+		background-color: #fff !important;
+	}
+	.navbar-collapse {
+		padding: 0;
+	}
+	.navbar-nav {
+		text-align: center;
+		float: none;
+		margin: 0;
+	}
+	.navbar-nav > li {
+		padding: 0;
+	}
+	.navbar-nav > li > a {
+		font-size: 18px;
+		padding: 20px 0;
+	}
+	.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > li > a:hover {
+		background-color: #FF5C14;
+		border-color: none;
+	}
+	.column-rs {
+		display: block;
+	}
+	.head-bg .col-md-8 {
+		padding-right: 15px;
+	}
+	.carousel-caption {
+		padding: 40px 20px 5px;
+	}
+	.carousel-caption h3 {
+		font-size: 18px;
+	}
+	.carousel-caption p {
+		font-size: 12px;
+	}
+	/*.carousel-control {
+		width: 9%;
+		height: 27%;
+		top: 35%;
+		z-index: 99;
+	}
+	.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+		font-size: 18px;
+	}*/
+	.head-bg .col-md-4 {
+		padding-left: 15px;
+	}
+	.right-slide {
+		margin-top: 20px;
+	}
+	.head-bg .col-md-4 .h10 {
+		height: 0;
+	}
+	.title h2 a, .title h2 {
+		font-size: 24px;
+	}
+	.list-tutorial .rh30 {
+		margin-bottom: 30px;
+	}
+	.list-tutorial .h40, .list-tutorial .h30, .tutorial-bg .h30 {
+		display: none;
+	}
+	.list-tutorial .col-md-3, .tutorial-bg .col-md-3 {
+		margin-bottom: 30px;
+	}
+	.tut-thumbnail {
+		height: 161px;
+	}
+	.caption>a {
+		font-size: 19px;
+	}
+	.caption>p {
+		font-size: 16px;
+	}
+	.btn-default {
+		display: none;
+	}
+	.btn-more {
+		display: block;
+		width: 100%;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-size: 13px;
+	}
+	.rh30 {
+		height: 30px;
+	}
+	.rh20 {
+		height: 20px;
+	}
+	.rh10 {
+		height: 10px;
+	}
+	.intro {
+		background: url(../images/theme1/bg-2.jpg) center;
+	}
+	.intro h2 {
+		font-size: 28px;
+		padding: 0px 10px;
+	}
+	.intro p {
+		font-size: 18px;
+		margin-top: 20px;
+	}
+	.rh60 {
+		height: 60px;
+	}
+	.post .col-md-7 {
+		padding-left: 15px;
+	}
+	.post-caption .title-post {
+		font-size: 19px;
+	}
+	.post-caption p {
+		font-size: 16px;
+	}
+	.link {
+		font-size: 14px;
+	}
+	footer {
+		background: url(../images/theme1/bg-1.jpg) center;
+	}
+	.head-bg h1 {
+		text-align: center;
+	}
+	.list-download .col-md-4 {
+		margin-bottom: 30px;
+	}
+	.list-download .caption, .other-post .caption {
+		padding: 10px 15px;
+	}
+	.list-download .caption > p {
+		font-size: 17px;
+	}
+	.list-download .h30 {
+		display: none;
+	}
+	.list-download .comment {
+		display: none;
+	}
+	.bg3 {
+		background: none;
+	}
+	.bg3 .col-md-9 {
+		padding-right: 15px;
+	}
+	.right-sidebar {
+		margin: 0;
+		padding: 0;
+		border-left: none;
+	}
+	.right-sidebar .title h2, .list-tutorial .title h2, .tutorial-bg .title h2 {
+		margin-bottom: 30px;
+	}
+	.right-sidebar .h50 {
+		display: none;
+	}
+	.blog .caption > p {
+		font-size: 19px;
+	}
+	.blog .post-info {
+		display: none;
+	}
+	.blog > div > p {
+		font-size: 16px;
+	}
+	.num-page .text-right {
+		text-align: center;
+	}
+	.bg3 .col-md-3 {
+		background-color: #f0f0f0;
+		border-top: 4px solid #e8e8e8;
+	}
+	.item-detail > h1 {
+		font-size: 20px;
+		text-align: left;
+	}
+	.item-detail {
+		border-top: 3px solid #000;
+		border-bottom: 3px solid #000;
+		border-left: none;
+		margin-left: 0;
+	}
+	.item-detail > p {
+		font-size: 17px;
+	}
+	.item-detail img, .item-detail .btn-primary {
+		display: none;
+	}
+	.item-detail .notice {
+		margin-top: 20px;
+	}
+	.item-detail .notice span {
+		font-size: 17px;
+	}
+	.item-detail .notice p {
+		font-size: 17px;
+		line-height: 1.3;
+	}
+	.alert {
+		font-size: 16px;
+	}
+	.form-group {
+		margin-bottom: 0;
+	}
+	.form-control {
+		margin-bottom: 15px;
+		font-size: 16px;
+		height: 38px;
+	}
+	.checkbox label, .radio label {
+		font-size: 15px;
+	}
+	button.btn-primary {
+		width: 100%;
+		text-align: center;
+	}
+	.detail h1 {
+		font-size: 21px;
+		line-height: 1.2;
+	}
+	.detail > p {
+		font-size: 16px;
+		line-height: 1.8;
+	}
+	.other-post .caption > p {
+		font-size: 18px;
+	}
+	.rp-comment {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.item-comment .name, .rp-comment .name {
+		font-size: 22px;
+	}
+	.item-comment .content, .rp-comment .content {
+		font-size: 16px;
+		line-height: 1.7;
+	}
+	.list-comment .btn-default {
+		display: block;
+		font-size: 15px;
+	}
+	.item-comment .link {
+		font-size: 16px;
+	}
+	.search-page .content {
+		margin-top: 15px;
+	}
+	.search-page .content .item {
+		font-size: 19px;
+	}
+	.search-page .content p {
+		font-size: 16px;
+	}
+}
+
+/*res min 768*/
+@media (min-width: 768px) {
+	.logo {
+		margin-top: 8px;
+	}
+	.logo img {
+		width: 85%;
+	}
+	.column {
+		display: none;
+	}
+	.navbar-nav {
+		margin-right: 0;
+	}
+	.navbar-nav > li {
+		padding: 0px 18px;
+	}
+	.carousel-caption p {
+		font-size: 15px;
+	}
+	.head-bg .col-md-8 {
+		padding-right: 15px;
+	}
+	.head-bg .col-md-4 {
+		padding-left: 15px;
+	}
+	.right-slide {
+		margin-top: 20px;
+		float: left;
+		width: 48.6%;
+		margin-right: 20px;
+	}
+	.right-slide:last-child {
+		margin-right: 0;
+	}
+	.head-bg .col-md-4 .h10 {
+		display: none;
+	}
+	.list-tutorial .h40, .list-tutorial .h30, .tutorial-bg .h30 {
+		display: none;
+	}
+	.list-tutorial .rh30, .tutorial-bg .rh30 {
+		display: block;
+	}
+	.list-tutorial .col-md-3, .tutorial-bg .col-md-3 {
+		margin-bottom: 30px;
+	}
+	.tut-thumbnail {
+		height: 192px;
+	}
+	.caption>a {
+		font-size: 19px;
+	}
+	.caption>p {
+		margin-bottom: 5px;
+		font-size: 15px;
+	}
+	.rh30 {
+		height: 30px;
+	}
+	.rh20 {
+		height: 20px;
+	}
+	.intro {
+		background: url(../images/theme1/bg-2.jpg) center;
+	}
+	.intro p {
+		font-size: 18px;
+	}
+	.rh60 {
+		height: 60px;
+	}
+	.btn-default.list-post {
+		display: block;
+	}
+	.post-caption .title-post {
+		font-size: 19px;
+	}
+	.post-caption p {
+		font-size: 15px;
+		margin: 10px 0px;
+	}
+	.ads-normal {
+		display: none;
+	}
+	.ads-min {
+		display: block;
+	}
+	.link {
+		margin-top: 10px;
+		font-size: 14px;
+	}
+	footer {
+		background: url(../images/theme1/bg-1.jpg) center;
+	}
+	.list-download .col-md-4 {
+		margin-bottom: 30px;
+	}
+	.list-download .h30 {
+		display: none;
+	}
+	.list-download .caption, .other-post .caption {
+		padding: 15px 15px;
+	}
+	.list-download .caption > p {
+		font-size: 18px;
+	}
+	.bg3 {
+		background: none;
+	}
+	.bg3 .col-md-9 {
+		padding-right: 15px;
+	}
+	.bg3 .col-md-3 {
+		background-color: #f0f0f0;
+		border-top: 4px solid #e8e8e8;
+	}
+	.blog .caption > p {
+		font-size: 24px;
+	}
+	.right-sidebar {
+		background-color: none;
+		border-left: none;
+		padding: 0;
+		margin: 0;
+	}
+	.blog > div > p {
+		font-size: 16px;
+	}
+	.right-sidebar .title h2, .list-tutorial .title h2, .tutorial-bg .title h2 {
+		margin-bottom: 30px;
+	}
+	.right-sidebar .h50 {
+		display: none;
+	}
+	.right-sidebar .tut {
+		margin-top: 30px;
+	}
+	.right-sidebar>div.row .h20 {
+		display: none;
+	}
+	.title .rh30 {
+		display: block;
+	}
+	.item-detail {
+		margin-left: 0;
+		border-left: none;
+		border-top: 3px solid #000;
+		border-bottom: 3px solid #000;
+	}
+	.item-detail img, .item-detail .btn-primary {
+		display: none;
+	}
+	.item-detail > h1 {
+		font-size: 24px;
+	}
+	.item-detail > p {
+		font-size: 17px;
+	}
+	.item-detail .notice {
+		margin-top: 20px;
+	}
+	.item-detail .notice span {
+		font-size: 17px;
+	}
+	.item-detail .notice p {
+		font-size: 17px;
+		line-height: 1.3;
+	}
+	.alert{
+		font-size: 16px;
+	}
+	.form-group {
+		margin-bottom: 0;
+	}
+	.form-control {
+		margin-bottom: 15px;
+		font-size: 16px;
+		height: 38px;
+	}
+	.checkbox label, .radio label {
+		font-size: 16px;
+	}
+	.detail > p {
+		font-size: 17px;
+	}
+	.other-post .caption > p {
+		font-size: 19px;
+	}
+	.rp-comment {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	.list-comment .btn-default {
+		display: block;
+		font-size: 13px;
+	}
+	.item-comment .name, .rp-comment .name {
+		font-size: 22px;
+	}
+	.item-comment .content, .rp-comment .content {
+		font-size: 17px;
+		line-height: 1.6;
+	}
+	.item-comment .link {
+		font-size: 15px;
+	}
+	.search-page .content .item {
+		font-size: 19px;
+	}
+	.search-page .content p {
+		font-size: 15px;
+	}
+}
+
+/*res min 992*/
+@media (min-width: 992px) {
+	.rh10, .rh20, .rh30, .rh40, .rh50, .rh60 {
+		display: none;
+	}
+	.navbar-nav {
+		margin-right: 70px;
+	}
+	.navbar-nav > li {
+		padding: 0px 20px;
+	}
+	.column {
+		display: block;
+	}
+	.head-bg .col-md-8 {
+		padding-right: 5px;
+	}
+	.head-bg .col-md-4 {
+		padding-left: 5px;
+	}
+	.head-bg .col-md-4 .h10 {
+		display: block;
+	}
+	.right-slide {
+		width: 100%;
+		float: none;
+		margin-right: 0;
+		margin-top: 0;
+	}
+	.list-tutorial .h40 {
+		display: none;
+	}
+	.list-tutorial .col-md-3, .tutorial-bg .col-md-3 {
+		margin-bottom: 30px;
+	}
+	.tut-thumbnail {
+		height: 119px;
+	}
+	.caption>a {
+		font-size: 14px;
+	}
+	.caption>p {
+		font-size: 12px;
+	}
+	.ads-normal {
+		display: block;
+	}
+	.ads-min {
+		display: none;
+	}
+	.btn-default.list-post {
+		display: none;
+	}
+	.post-caption .title-post {
+		font-size: 14px;
+	}
+	.post-caption p {
+		font-size: 13px;
+		margin: 0;
+		margin-bottom: 5px;
+	}
+	.link {
+		font-size: 12px;
+		margin-top: 0;
+	}
+	.col-sm-offset-3 {
+		margin-left: 0;
+	}
+	.col-sm-12 .rh60 {
+		display: none;
+	}
+	.list-download .caption > p {
+		font-size: 16px;
+	}
+	.list-download .h30 {
+		display: none;
+	}
+	.list-download .caption, .other-post .caption {
+		padding: 10px 15px;
+	}
+	.list-download .comment {
+		margin-top: 0px;
+	}
+	.bg3 {
+		background-image: url(../images/theme1/bg-3.jpg);
+		background-repeat: repeat-y;
+		background-position: center;
+	}
+	.bg3 .col-md-9 {
+		padding-right: 45px;
+	}
+	.bg3 .col-md-3 {
+		border-top: none;
+	}
+	.right-sidebar {
+		background-color: #f0f0f0;
+		border-left: 4px solid #e8e8e8;
+		margin-left: -30px;
+		padding-left: 26px;
+		margin-bottom: -5000%;
+		padding-bottom: 5000%;
+	}
+	.right-sidebar .rh20,.right-sidebar .rh30 {
+		display: block;
+	}
+	.right-sidebar .title h2 a {
+		font-size: 23px;
+	}
+	.right-sidebar .row .col-sm-6 {
+		margin-top: 0px;
+	}
+	.right-sidebar .caption>a {
+		font-size: 15px;
+	}
+	.right-sidebar .caption>p {
+		font-size: 14px;
+	}
+	.item-detail {
+		background-color: #1F2124;
+		border-left: 3px solid #000;
+		margin-left: -30px;
+		border-top: none;
+		border-bottom: none;
+	}
+	.item-detail > h1 {
+		font-size: 20px;
+	}
+	.item-detail > p {
+		font-size: 16px;
+	}
+	.item-detail .notice span {
+		font-size: 16px;
+	}
+	.item-detail .notice p {
+		font-size: 16px;
+		line-height: 1.2;
+	}
+	.detail > p {
+		font-size: 16px;
+	}
+	.other-post .caption > p {
+		font-size: 14px;
+	}
+	.item-comment .content, .rp-comment .content {
+		font-size: 16px;
+		line-height: 1.5;
+	}
+	.item-comment .link {
+		font-size: 13px;
+	}
+}
+
+/*res min 1200*/
+@media (min-width: 1200px) {
+	.logo {
+		margin-top: 5px;
+	}
+	.logo img {
+		width: 100%;
+	}
+	.tut-thumbnail {
+		height: 147px;
+	}
+	.caption>a {
+		font-size: 15px;
+	}
+	.caption>p {
+		font-size: 13px;
+	}
+	.intro {
+		background: url(../images/theme1/bg-2.jpg) fixed center;
+	}
+	.intro p {
+		font-size: 18px;
+	}
+	.post-caption .title-post {
+		font-size: 15px;
+	}
+	footer {
+		background: url(../images/theme1/bg-1.jpg) fixed center;
+	}
+	.list-tutorial .rh30, .tutorial-bg .rh30 {
+		margin-bottom: 30px;
+	}
+	.list-download .col-md-4 {
+		margin-bottom: 0;
+	}
+	.list-download .caption, .other-post .caption {
+		padding: 15px 15px;
+	}
+	.list-download .caption > p {
+		font-size: 18px;
+	}
+	.list-download .comment {
+		display: block;
+		margin-top: 2px;
+	}
+	.blog > div > p {
+		font-size: 14px;
+	}
+	.right-sidebar > .h20, .right-sidebar > div.row .h20 {
+		display: block;
+	}
+	.list-tutorial .h40, .list-download .h30 {
+		display: block;
+	}
+	.list-tutorial .col-md-3, .tutorial-bg .col-md-3 {
+		margin-bottom: 0;
+	}
+	.item-detail {
+		background-color: #1F2124;
+		border-left: 3px solid #000;
+		margin-left: -30px;
+		border-top: none;
+		border-bottom: none;
+	}
+	.item-detail > h1 {
+		font-size: 20px;
+	}
+	.item-detail > p {
+		font-size: 13px;
+	}
+	.item-detail img, .item-detail .btn-primary {
+		display: block;
+	}
+	.item-detail .notice span {
+		font-size: 13px;
+	}
+	.item-detail .notice p {
+		font-size: 13px;
+		line-height: 1.2;
+	}
+	.alert, .checkbox label, .radio label {
+		font-size: 14px;
+	}
+	.form-control {
+		height: 34px;
+		font-size: 14px;
+	}
+	.detail > p {
+		font-size: 14px;
+	}
+	.other-post .caption > p {
+		font-size: 15px;
+	}
+	.right-sidebar .caption > p {
+		font-size: 13px;
+	}
+	.right-sidebar .h50 {
+		display: block;
+	}
+	.right-sidebar .rh20 {
+		display: none;
+	}
+	.rp-comment {
+		padding-left: 40px;
+		padding-right: 25px;
+	}
+	.list-comment .btn-default {
+		display: block;
+		font-size: 11px;
+	}
+	.rp-comment {
+		padding-left: 40px;
+		padding-right: 25px;
+	}
+	.list-comment .btn-default {
+		display: block;
+		font-size: 11px;
+	}
+	.item-comment .name, .rp-comment .name {
+		font-size: 18px;
+	}
+	.item-comment .content, .rp-comment .content {
+		font-size: 14px;
+		line-height: 1.6;
+	}
+	.item-comment .link {
+		font-size: 12px;
+	}
+	.search-page .content {
+		margin-top: 0px;
+	}
+	.search-page .content .item {
+		font-size: 18px;
+	}
+	.search-page .content p {
+		font-size: 14px;
+	}
+}

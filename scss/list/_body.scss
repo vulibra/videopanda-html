@@ -1,0 +1,15 @@
+//css <body>
+
+body {
+	background-color: #fff;
+	@include font(Arial, 14px, 400);
+	a, a:focus, a:hover, a:active {
+		outline: none;
+		text-decoration: none;
+		color: $txt-default;
+	}
+	h1, h2, h3, h4, h5, h6, p {
+		margin: 0;
+		padding: 0;
+	}
+}

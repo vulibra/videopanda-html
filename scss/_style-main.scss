@@ -1,0 +1,19 @@
+/*!
+ * Videopanda v2.5 (http://videopanda.net)
+ * Copyright 2015 Videopanda.
+ * Licensed under Sass/Scss by GD.VanLoi
+ */
+ 
+// List scss on "list" folder
+
+@import "list/variable";
+@import "list/mixin";
+@import "list/font";
+@import "list/button";
+
+// list scss layout
+@import "list/body";
+@import "list/header";
+@import "list/footer";
+@import "list/home";
+@import "list/autoplay";

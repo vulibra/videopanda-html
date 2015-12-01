@@ -1,0 +1,80 @@
+//css page home
+
+.head-product {
+	background: url(../images/theme1/bg-1.jpg) top center;
+	padding: 50px 0;
+	margin-bottom: 60px;
+
+	//slider
+	.slider {
+		margin-right: -10px;
+		position: relative;
+		overflow: hidden;
+		.slider-item {
+			position: relative;
+			display: block;
+			border: 1px solid transparent;
+			&:hover, &:focus {
+				border: 1px solid $white;
+			}
+			img {
+				max-width: 100%;
+				height: auto;
+			}
+			.description {
+				bottom: 0;
+				width: 100%;
+				height: 50%;
+				padding: 0 25px;
+				position: absolute;
+				@include gradient-default;
+				p {
+					position: absolute;
+					bottom: 25px;
+					color: $white;
+					@include font('Roboto', 25px, 300);
+					@include text-shadow(0, 2px, 2px, rgba(0,0,0,0.7));
+				}
+			}
+		}
+	}
+	//end slider
+
+	//right product
+	.right-product {
+		margin-left: -5px;
+		.item {
+			position: relative;
+			overflow: hidden;
+			margin-bottom: 15px;
+			border: 1px solid transparent;
+			&:last-child {margin-bottom: 0;}
+			&:hover, &:focus {
+				border: 1px solid $white;
+			}
+			a {
+				display: block;
+			}
+			img {
+				max-width: 100%;
+				height: auto;
+			}
+			.description {
+				bottom: 0;
+				width: 100%;
+				height: 50%;
+				padding: 0 15px;
+				position: absolute;
+				@include gradient-default;
+				p {
+					position: absolute;
+					bottom: 15px;
+					color: $white;
+					@include font('Roboto', 18px, 300);
+					@include text-shadow(0, 2px, 2px, rgba(0,0,0,0.7));
+				}
+			}
+		}
+	}
+}
+

@@ -1,0 +1,11 @@
+// Insert font-family from "mixins/fonts.scss"
+
+@font-face{
+	@include font-face(Roboto,Roboto-Regular,400,normal);
+}
+@font-face{
+	@include font-face(Roboto,OpenSans-Bold,700,normal);
+}
+ @font-face{
+ 	@include font-face(Roboto,OpenSans-light,300,normal);
+ }

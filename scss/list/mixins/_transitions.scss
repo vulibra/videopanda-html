@@ -1,0 +1,14 @@
+@mixin transition-ease($value) {
+	-ms-transition: $value ease;
+	-moz-transition: $value ease;
+	-webkit-transition: $value ease;
+	-o-transition: $value ease;
+	transition: $value ease;
+}
+@mixin transition-ease-in-out($value) {
+	-ms-transition: $value ease-in-out;
+	-moz-transition: $value ease-in-out;
+	-webkit-transition: $value ease-in-out;
+	-o-transition: $value ease-in-out;
+	transition: $value ease-in-out;
+}

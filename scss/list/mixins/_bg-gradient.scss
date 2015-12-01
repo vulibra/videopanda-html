@@ -1,0 +1,8 @@
+//background gradient
+
+@mixin gradient-default {
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,.0001) 0%, rgba(0,0,0,.8) 100%);
+    background-image: -o-linear-gradient(top, rgba(0,0,0,.0001) 0%, rgba(0,0,0,.8) 100%);
+    background-image: -moz-linear-gradient(top, rgba(0,0,0,.0001) 0%, rgba(0,0,0,.8) 100%);
+    background-image: linear-gradient(to down, rgba(0,0,0,.0001) 0%, rgba(0,0,0,.8) 100%);
+}
